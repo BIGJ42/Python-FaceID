@@ -25,8 +25,8 @@ Ensure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
-    cd your-repository
+    git clone https://github.com/BIGJ42/Python-FaceID.git
+    cd Python-FaceID
     ```
 
 2. Create a virtual environment (recommended):
@@ -49,14 +49,14 @@ Ensure you have the following installed:
 3. Run the script:
 
     ```bash
-    python your_script_name.py
+    faceid.py
     ```
 
 4. The video feed will display faces detected and recognized, along with estimated age and gender. Press 'q' to quit the video feed.
 
 ## File Structure
 
-- `your_script_name.py`: Main Python script for face detection and recognition.
+- `faceis.py`: Main Python script for face detection and recognition.
 - `recognized_faces/`: Directory where recognized face images are saved.
 - `recognized_faces_info.json`: JSON file storing information about recognized faces.
 - `requirements.txt`: List of dependencies.
